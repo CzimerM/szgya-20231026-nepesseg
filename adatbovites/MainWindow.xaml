@@ -1,0 +1,42 @@
+﻿<Window x:Class="adatbovites.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:adatbovites"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Height="Auto" VerticalAlignment="Stretch">
+        <Label VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="20">Új ország felvétele</Label>
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right">Ország</Label>
+            <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right">Terület</Label>
+            <Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right">Népesség</Label>
+            <Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right">Főváros</Label>
+            <Label Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right">Főváros lakossága</Label>
+
+            <TextBox Grid.Row="0" Grid.Column="1" Name="txbOrszag"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="txbTerulet"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1" Name="txbNepesseg"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="1" Name="txbFovaros"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="1" Name="txbFovarosLakossag"></TextBox>
+
+            <Button Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Click="btnMentesFunc" Margin="10">Mentes</Button>
+        </Grid>
+        <Label HorizontalAlignment="Center" Name="lblKiiras">Kérem adja meg az adatokat</Label>
+        <Button VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Click="btnKilepesFunc">Kilépés</Button>
+    </StackPanel>
+</Window>

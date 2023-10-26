@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szgya-20231026-nepesseg", "szgya-20231026-nepesseg\szgya-20231026-nepesseg.csproj", "{7A5A41F4-4728-488F-8845-AB1AA08E794E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adatbovites", "adatbovites\adatbovites.csproj", "{AA7E51B5-8A48-41F4-9743-C32202D1D2AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7A5A41F4-4728-488F-8845-AB1AA08E794E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A5A41F4-4728-488F-8845-AB1AA08E794E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A5A41F4-4728-488F-8845-AB1AA08E794E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7E51B5-8A48-41F4-9743-C32202D1D2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7E51B5-8A48-41F4-9743-C32202D1D2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7E51B5-8A48-41F4-9743-C32202D1D2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7E51B5-8A48-41F4-9743-C32202D1D2AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
